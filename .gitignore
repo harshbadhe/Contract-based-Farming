@@ -16,7 +16,7 @@ build/
 .env.test.local
 
 # Firebase service account key
-backend/config/serviceAccountKey.json
+Backend/Firebase/serviceAccountKey.json
 
 # OS or editor files
 .DS_Store
