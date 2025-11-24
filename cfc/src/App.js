@@ -32,6 +32,11 @@ import CreateFinalContractForm from './Pages/CreateFinalContractForm';
 import FarmerFinalContractsPage from "./Pages/FarmerFinalContractsPage";
 import BuyerFinalContractsPage from "./Pages/BuyerFinalContractsPage";
 
+import ContractDetailsPage from './Pages/BuyerContractDetailsPage';
+import FarmerContractDetailsPage from './Pages/FarmerContractDetailsPage';
+import ContractAgreementPage from './Pages/ContractAgreementPage';
+
+
 // import MyListingsPage from './pages/MyListingsPage'; ← future
 // import MyOrdersPage from './pages/MyOrdersPage'; ← future
 
@@ -88,6 +93,12 @@ const App = () => {
           path="/create-final-contract"
           element={<CreateFinalContractForm />}
         />
+
+        <Route path="/buyer/contract/:id" element={<ContractDetailsPage />} />
+        <Route path="/farmer/contract/:id" element={<FarmerContractDetailsPage />} />
+
+         <Route path="/farmer/contract-agreement/:id" element={<ContractAgreementPage />} />
+         <Route path="/buyer/contract-agreement/:id" element={<ContractAgreementPage />} />
 
 
 
