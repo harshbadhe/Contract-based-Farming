@@ -2,39 +2,46 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import LoginPage from '../src/Pages/LoginPage'
-import RegisterPage from '../src/Pages/RegisterPage';
-import FarmerLandingPage from '../src/Pages/FarmerLandingPage';
-import BuyerLandingPage from '../src/Pages/BuyerLandingPage';
-import SellProducePage from '../src/Pages/SellProducePage';
-import FarmerListingsPage from '../src/Pages/FarmerListingsPage';
-import BuyProducesPage from '../src/Pages/BuyProducesPage';
-import GiveContractPage from '../src/Pages/GiveContractPage';
-import ProduceDetailsPage from '../src/Pages/ProduceDetailsPage';
-import CartPage from '../src/Pages/CartPage';
-import ProblemsPage from '../src/Pages/ProblemsPage';
-import ProblemDetailsPage from '../src/Pages/ProblemDetailsPage';
-import HarvestIntentPage from '../src/Pages/HarvestIntentPage';
-import HarvestDetailsPage from '../src/Pages/HarvestDetailsPage';
-import BuyNowPage from './Pages/BuyNowPage';
-import BuyerMyOrdersPage from './Pages/BuyerMyOrdersPage';
-import FarmerMyOrdersPage from './Pages/FarmerMyOrdersPage';
-import BuyerOrderDetailsPage from './Pages/BuyerOrderDetailsPage';
-import FarmerOrderDetailsPage from './Pages/FarmerOrderDetailsPage';
+// Auth
+import LoginPage from './Pages/Auth/LoginPage';
+import RegisterPage from './Pages/Auth/RegisterPage';
 
-import BuyerRequestForm from './Pages/BuyerRequestForm';
-import BuyerInterestForm from './Pages/BuyerInterestForm';
-import BuyerContractDetails from './Pages/BuyerContractDetails';
-import FarmerContractDetails from './Pages/FarmerContractDetails';
+// Farmer
+import FarmerLandingPage from './Pages/Farmer/FarmerLandingPage';
+import SellProducePage from './Pages/Farmer/SellProducePage';
+import FarmerListingsPage from './Pages/Farmer/FarmerListingsPage';
+import HarvestIntentPage from './Pages/Farmer/HarvestIntentPage';
+import HarvestDetailsPage from './Pages/Farmer/HarvestDetailsPage';
 
-import CreateFinalContractForm from './Pages/CreateFinalContractForm';
+// Buyer
+import BuyerLandingPage from './Pages/Buyer/BuyerLandingPage';
+import BuyProducesPage from './Pages/Buyer/BuyProducesPage';
+import ProduceDetailsPage from './Pages/Buyer/ProduceDetailsPage';
+import BuyNowPage from './Pages/Buyer/BuyNowPage';
+import CartPage from './Pages/Buyer/CartPage';
+import GiveContractPage from './Pages/Buyer/GiveContractPage';
 
-import FarmerFinalContractsPage from "./Pages/FarmerFinalContractsPage";
-import BuyerFinalContractsPage from "./Pages/BuyerFinalContractsPage";
+// Orders
+import BuyerMyOrdersPage from './Pages/Orders/BuyerMyOrdersPage';
+import BuyerOrderDetailsPage from './Pages/Orders/BuyerOrderDetailsPage';
+import FarmerMyOrdersPage from './Pages/Orders/FarmerMyOrdersPage';
+import FarmerOrderDetailsPage from './Pages/Orders/FarmerOrderDetailsPage';
 
-import ContractDetailsPage from './Pages/BuyerContractDetailsPage';
-import FarmerContractDetailsPage from './Pages/FarmerContractDetailsPage';
-import ContractAgreementPage from './Pages/ContractAgreementPage';
+// Contracts
+import BuyerRequestForm from './Pages/Contracts/BuyerRequestForm';
+import BuyerInterestForm from './Pages/Contracts/BuyerInterestForm';
+import BuyerContractDetails from './Pages/Contracts/BuyerContractDetails';
+import FarmerContractDetails from './Pages/Contracts/FarmerContractDetails';
+import CreateFinalContractForm from './Pages/Contracts/CreateFinalContractForm';
+import FarmerFinalContractsPage from './Pages/Contracts/FarmerFinalContractsPage';
+import BuyerFinalContractsPage from './Pages/Contracts/BuyerFinalContractsPage';
+import ContractDetailsPage from './Pages/Contracts/BuyerContractDetailsPage';
+import FarmerContractDetailsPage from './Pages/Contracts/FarmerContractDetailsPage';
+import ContractAgreementPage from './Pages/Contracts/ContractAgreementPage';
+
+// Problems
+import ProblemsPage from './Pages/Problems/ProblemsPage';
+import ProblemDetailsPage from './Pages/Problems/ProblemDetailsPage';
 
 
 // import MyListingsPage from './pages/MyListingsPage'; ← future
